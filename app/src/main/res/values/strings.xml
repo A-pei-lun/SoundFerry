@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">声渡 SoundFerry</string>
+
+    <!-- 主界面 -->
+    <string name="history">历史记录</string>
+    <string name="settings">设置</string>
+    <string name="mic_permission_denied">需要麦克风权限才能录音</string>
+    <string name="start_recording">开始录音</string>
+    <string name="stop_recording">停止</string>
+    <string name="listening">正在听...</string>
+    <string name="click_to_record">点击下方按钮开始录音</string>
+    <string name="translation_ready">翻译模型已就绪</string>
+    <string name="translation_downloading">正在下载翻译模型...（约 30-50MB）</string>
+    <string name="translation_failed">翻译模型下载失败，请检查网络</string>
+    <string name="model_loading">正在加载语音模型...</string>
+    <string name="model_load_failed">语音模型加载失败：%s</string>
+    <string name="model_switch_warning">切换模型时会有短暂卡顿，请耐心等待</string>
+    <string name="model_switch_stop_first">请先停止录音再切换模型</string>
+    <string name="model_switch_failed">模型切换失败</string>
+    <string name="model_import_success">模型「%s」导入成功，可在模型选择中切换</string>
+    <string name="model_import_failed">模型导入失败：%s</string>
+    <string name="engine_switch_stop_first">请先停止录音再切换引擎</string>
+    <string name="close">关闭</string>
+    <string name="delete">删除</string>
+    <string name="import_text">导入</string>
+    <string name="clear_all">清空</string>
+    <string name="no_history">暂无记录</string>
+
+    <!-- 文字区域 -->
+    <string name="english_translation">英文翻译</string>
+    <string name="translating">翻译中...</string>
+    <string name="translation_failed_text">翻译失败</string>
+
+    <!-- 主题 -->
+    <string name="theme_selection">主题选择</string>
+    <string name="theme_builtin">内置主题</string>
+    <string name="theme_custom">自定义主题</string>
+    <string name="current_theme">当前主题</string>
+
+    <!-- 引擎 -->
+    <string name="voice_engine">语音引擎</string>
+    <string name="engine_available">✅ 可用</string>
+    <string name="engine_developing">⏳ 开发中</string>
+
+    <!-- 语言 -->
+    <string name="ui_language">界面语言</string>
+
+    <!-- 模型导入 -->
+    <string name="model_import">模型导入</string>
+    <string name="no_pending_models">暂无待导入模型</string>
+    <string name="model_import_hint">将 vosk 模型压缩包放入设备文件目录即可自动识别</string>
+    <string name="model_keep_note">大模型压缩包请保留，后续正式版升级可重复使用（作者还没做APK覆盖安装，删了下次重装还得重新下载）</string>
+
+    <!-- 自定义资源 -->
+    <string name="custom_resources">自定义资源</string>
+    <string name="open_resources_folder">打开资源文件夹</string>
+    <string name="coming_soon">⚠️ 开发中，敬请期待</string>
+
+    <!-- 实验性功能 -->
+    <string name="experimental_features">实验性功能</string>
+    <string name="liquid_glass">液化玻璃</string>
+    <string name="liquid_glass_desc">背景毛玻璃效果（实验性）</string>
+    <string name="liquid_glass_unsupported">仅 Android 12+ 支持</string>
+    <string name="liquid_glass_disclaimer">该选项为实验性功能，所用 API 可能在您的设备上无效果。</string>
+
+    <!-- 翻译开关 -->
+    <string name="translation_toggle">中译英</string>
+    <string name="translation_dev">翻译功能开发中，敬请期待</string>
+
+    <!-- 模型选择器 -->
+    <string name="model_selector">模型选择</string>
+
+    <!-- 版权 -->
+    <string name="powered_by">POWERED BY APIRL</string>
+</resources>

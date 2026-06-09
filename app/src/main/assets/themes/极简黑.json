@@ -1,0 +1,34 @@
+{
+  "name": "极简黑",
+  "elements": [
+    {
+      "type": "RECORD_BUTTON",
+      "position": { "anchor": "BOTTOM_CENTER", "marginBottom": 40 },
+      "style": { "size": 80, "shape": "circle", "colorActive": "#D32F2F", "colorIdle": "#1976D2" }
+    },
+    {
+      "type": "TEXT_DISPLAY",
+      "position": { "marginTop": 48 },
+      "style": { "textSize": 18, "cornerRadius": 16, "bgColor": "#FFF0F0F0" }
+    },
+    {
+      "type": "HISTORY_BUTTON",
+      "position": { "anchor": "TOP_LEFT", "marginLeft": 8, "marginTop": 8 },
+      "style": { "iconSize": 24 }
+    },
+    {
+      "type": "MODEL_SELECTOR",
+      "position": { "anchor": "TOP_RIGHT", "marginTop": 8, "marginRight": 8 }
+    },
+    {
+      "type": "SETTINGS_BUTTON",
+      "position": { "anchor": "TOP_RIGHT", "marginTop": 8, "marginRight": 48 },
+      "style": { "iconSize": 24 }
+    },
+    {
+      "type": "TRANSLATION_TOGGLE",
+      "position": { "anchor": "BOTTOM_LEFT", "marginLeft": 16, "marginBottom": 104 },
+      "style": { "colorActive": "#1976D2" }
+    }
+  ]
+}
